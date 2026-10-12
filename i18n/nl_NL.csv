@@ -16,3 +16,8 @@
 "Sort order","Sorteervolgorde"
 "Delivery","Bezorging"
 "Standard delivery","Standaardbezorging"
+"Show delivery price in cart","Verzendprijs tonen in winkelwagen"
+"Shows the delivery price, and how much is left to free delivery, in the cart summary. Rendered on the server, with no extra JavaScript.","Toont de verzendprijs, en hoeveel er nog ontbreekt voor gratis verzending, in het overzicht van de winkelwagen. Wordt op de server gemaakt, zonder extra JavaScript."
+"Free delivery","Gratis verzending"
+"Delivery: %1","Verzending: %1"
+"Add %1 more for free delivery.","Nog %1 tot gratis verzending."

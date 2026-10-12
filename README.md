@@ -30,6 +30,7 @@ set per store view, so the method can be turned on for one store view at a time.
 | Price | The delivery price in the base currency. `49.50` and `49,50` both work. Required. |
 | Free shipping from | Cart total from which delivery is free. Empty = never free. |
 | Free shipping threshold includes tax | Yes (default): compare the cart total including tax, after discounts. No: excluding tax. |
+| Show delivery price in cart | Yes (default): the cart summary shows the price, or "Free delivery", and how much is left to free delivery. |
 | Ship to Applicable / Specific Countries | Magento's standard country limit. Default: all allowed countries. |
 | Sort order | Position among the other delivery methods. |
 
@@ -42,3 +43,13 @@ How the price is chosen:
 - The default title and method name are translated with the module's `i18n/*.csv` files (11
   languages). A title you type in the admin is shown as typed, so set it per store view for each
   language.
+
+## Speed
+
+The module is built to add as little as possible to the cart and checkout:
+
+- No database tables, observers, plugins, cron jobs or queues. The carrier reads a few settings
+  from Magento's config cache and does one comparison.
+- No JavaScript or CSS. The cart line is plain HTML rendered on the server from the cart that the
+  page has already loaded, so it adds no requests. It updates when the cart page reloads (after
+  changing quantities or applying a discount code).

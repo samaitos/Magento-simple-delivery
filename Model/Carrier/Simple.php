@@ -113,7 +113,7 @@ class Simple extends AbstractCarrier implements CarrierInterface
      *
      * @param mixed $value
      */
-    private static function parseAmount($value): ?float
+    public static function parseAmount($value): ?float
     {
         $value = str_replace([' ', "\u{00A0}"], '', trim((string)$value));
         $value = str_replace(',', '.', $value);

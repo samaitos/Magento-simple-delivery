@@ -10,6 +10,7 @@
                 <name>Standard delivery</name>
                 <price/>
                 <free_shipping_from/>
+                <show_in_cart>1</show_in_cart>
                 <sallowspecific>0</sallowspecific>
                 <free_shipping_including_tax>1</free_shipping_including_tax>
                 <sort_order>10</sort_order>

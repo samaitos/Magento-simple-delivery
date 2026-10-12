@@ -16,3 +16,8 @@
 "Sort order","Lajittelujärjestys"
 "Delivery","Toimitus"
 "Standard delivery","Vakiotoimitus"
+"Show delivery price in cart","Näytä toimitushinta ostoskorissa"
+"Shows the delivery price, and how much is left to free delivery, in the cart summary. Rendered on the server, with no extra JavaScript.","Näyttää toimitushinnan ja ilmaiseen toimitukseen puuttuvan summan ostoskorin yhteenvedossa. Luodaan palvelimella ilman ylimääräistä JavaScriptiä."
+"Free delivery","Ilmainen toimitus"
+"Delivery: %1","Toimitus: %1"
+"Add %1 more for free delivery.","Osta vielä %1 ja saat ilmaisen toimituksen."

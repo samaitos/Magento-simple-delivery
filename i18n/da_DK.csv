@@ -16,3 +16,8 @@
 "Sort order","Sorteringsrækkefølge"
 "Delivery","Levering"
 "Standard delivery","Standardlevering"
+"Show delivery price in cart","Vis leveringspris i kurven"
+"Shows the delivery price, and how much is left to free delivery, in the cart summary. Rendered on the server, with no extra JavaScript.","Viser leveringsprisen, og hvor meget der mangler til gratis levering, i kurvens oversigt. Dannes på serveren uden ekstra JavaScript."
+"Free delivery","Gratis levering"
+"Delivery: %1","Levering: %1"
+"Add %1 more for free delivery.","Køb for %1 mere, så får du gratis levering."

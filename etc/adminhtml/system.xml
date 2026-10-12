@@ -32,6 +32,11 @@
                     <comment>Yes: the cart total including tax, after discounts, is compared with "Free shipping from". No: the total excluding tax.</comment>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
+                <field id="show_in_cart" translate="label comment" type="select" sortOrder="52" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Show delivery price in cart</label>
+                    <comment>Shows the delivery price, and how much is left to free delivery, in the cart summary. Rendered on the server, with no extra JavaScript.</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
                 <field id="sallowspecific" translate="label" type="select" sortOrder="55" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
                     <label>Ship to Applicable Countries</label>
                     <frontend_class>shipping-applicable-country</frontend_class>

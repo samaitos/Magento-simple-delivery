@@ -16,3 +16,8 @@
 "Sort order","Ordre de tri"
 "Delivery","Livraison"
 "Standard delivery","Livraison standard"
+"Show delivery price in cart","Afficher le prix de livraison dans le panier"
+"Shows the delivery price, and how much is left to free delivery, in the cart summary. Rendered on the server, with no extra JavaScript.","Affiche le prix de livraison, et le montant restant pour la livraison gratuite, dans le récapitulatif du panier. Généré sur le serveur, sans JavaScript supplémentaire."
+"Free delivery","Livraison gratuite"
+"Delivery: %1","Livraison : %1"
+"Add %1 more for free delivery.","Plus que %1 pour la livraison gratuite."
