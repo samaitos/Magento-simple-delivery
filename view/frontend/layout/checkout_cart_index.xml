@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="cart.summary">
+            <block class="Magento\Framework\View\Element\Template"
+                   name="wkshipping.cart.price"
+                   template="Walletking_Shipping::cart-shipping.phtml"
+                   before="checkout.cart.totals.container"
+                   ifconfig="carriers/wkshipping/show_in_cart">
+                <arguments>
+                    <argument name="view_model" xsi:type="object">Walletking\Shipping\ViewModel\CartShipping</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

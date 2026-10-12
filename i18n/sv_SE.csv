@@ -16,3 +16,8 @@
 "Sort order","Sorteringsordning"
 "Delivery","Leverans"
 "Standard delivery","Standardleverans"
+"Show delivery price in cart","Visa fraktpris i varukorgen"
+"Shows the delivery price, and how much is left to free delivery, in the cart summary. Rendered on the server, with no extra JavaScript.","Visar fraktpriset, och hur mycket som är kvar till fri frakt, i varukorgens sammanfattning. Skapas på servern, utan extra JavaScript."
+"Free delivery","Fri frakt"
+"Delivery: %1","Frakt: %1"
+"Add %1 more for free delivery.","Handla för %1 till så får du fri frakt."

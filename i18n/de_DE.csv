@@ -16,3 +16,8 @@
 "Sort order","Sortierreihenfolge"
 "Delivery","Lieferung"
 "Standard delivery","Standardversand"
+"Show delivery price in cart","Versandpreis im Warenkorb anzeigen"
+"Shows the delivery price, and how much is left to free delivery, in the cart summary. Rendered on the server, with no extra JavaScript.","Zeigt den Versandpreis und den fehlenden Betrag bis zum kostenlosen Versand in der Warenkorbübersicht. Wird auf dem Server erzeugt, ohne zusätzliches JavaScript."
+"Free delivery","Kostenloser Versand"
+"Delivery: %1","Versand: %1"
+"Add %1 more for free delivery.","Noch %1 bis zum kostenlosen Versand."

@@ -16,3 +16,8 @@
 "Sort order","Ordem"
 "Delivery","Entrega"
 "Standard delivery","Entrega standard"
+"Show delivery price in cart","Mostrar o preço de entrega no carrinho"
+"Shows the delivery price, and how much is left to free delivery, in the cart summary. Rendered on the server, with no extra JavaScript.","Mostra o preço de entrega, e quanto falta para portes grátis, no resumo do carrinho. Gerado no servidor, sem JavaScript adicional."
+"Free delivery","Portes grátis"
+"Delivery: %1","Entrega: %1"
+"Add %1 more for free delivery.","Faltam %1 para portes grátis."

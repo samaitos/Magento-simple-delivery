@@ -1,0 +1,20 @@
+<?php
+/** @var \Magento\Framework\View\Element\Template $block */
+/** @var \Magento\Framework\Escaper $escaper */
+/** @var \Walletking\Shipping\ViewModel\CartShipping $viewModel */
+$viewModel = $block->getData('view_model');
+$summary = $viewModel->getSummary();
+if ($summary === null) {
+    return;
+}
+?>
+<div class="wk-cart-shipping" style="margin:0 0 15px">
+    <?php if ($summary['free']): ?>
+        <strong><?= $escaper->escapeHtml(__('Free delivery')) ?></strong>
+    <?php else: ?>
+        <div><?= $escaper->escapeHtml(__('Delivery: %1', $summary['price'])) ?></div>
+        <?php if ($summary['remaining'] !== null): ?>
+            <div><?= $escaper->escapeHtml(__('Add %1 more for free delivery.', $summary['remaining'])) ?></div>
+        <?php endif; ?>
+    <?php endif; ?>
+</div>

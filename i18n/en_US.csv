@@ -16,3 +16,8 @@
 "Sort order","Sort order"
 "Delivery","Delivery"
 "Standard delivery","Standard delivery"
+"Show delivery price in cart","Show delivery price in cart"
+"Shows the delivery price, and how much is left to free delivery, in the cart summary. Rendered on the server, with no extra JavaScript.","Shows the delivery price, and how much is left to free delivery, in the cart summary. Rendered on the server, with no extra JavaScript."
+"Free delivery","Free delivery"
+"Delivery: %1","Delivery: %1"
+"Add %1 more for free delivery.","Add %1 more for free delivery."
